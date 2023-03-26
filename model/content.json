@@ -1,0 +1,370 @@
+{
+  "intents": [
+    {
+      "tag": "salam",
+      "input": ["hi", "halo", "hai", "hey", "hello", "hallo", "hola"],
+      "responses": [
+        "Halo!",
+        "Hai",
+        "Halo, ada yang bisa saya bantu?",
+        "Halo selamat datang",
+        "Hai Kawan"
+      ]
+    },
+
+    {
+      "tag": "noanswer",
+      "input": [""],
+      "responses": [
+        "Maaf, Saya tidak tahu maksud kamu",
+        "Maaf saya tidak paham maksudmu, Tolong beri saya info lebih lanjut",
+        "Maaf, saya tidak bisa memahami maksudmu"
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "input": [
+        "bye",
+        "dadah",
+        "okay bye",
+        "goodbye",
+        "sampai jumpa",
+        "sampai jumpa lagi",
+        "oke sampai jumpa",
+        "Bye brother"
+      ],
+      "responses": ["Sampai Jumpa, Selalu Jaga Kesehatan Yaah!!"]
+    },
+
+    {
+      "tag": "pagi",
+      "input": ["selamat pagi", "pagi"],
+      "responses": [
+        "Selamat Pagi Juga, ada yang ingin ditanyakan mengenai COVID-19 ?"
+      ]
+    },
+
+    {
+      "tag": "siang",
+      "input": ["selamat siang", "siang"],
+      "responses": [
+        "Selamat Siang Juga, ada yang ingin ditanyakan mengenai COVID-19 ?"
+      ]
+    },
+
+    {
+      "tag": "sore",
+      "input": ["selamat sore", "sore"],
+      "responses": [
+        "Selamat Sore Juga, ada yang ingin ditanyakan mengenai COVID-19 ?"
+      ]
+    },
+
+    {
+      "tag": "malam",
+      "input": ["selamat malam", "malam"],
+      "responses": [
+        "Selamat Malam Juga, ada yang ingin ditanyakan mengenai COVID-19 ?"
+      ]
+    },
+
+    {
+      "tag": "opsi",
+      "input": [
+        "bagaimana anda bisa membantu saya?",
+        "apa yang bisa kamu lakukan?",
+        "bantuan apa yang anda berikan?",
+        "dukungan apa yang ditawarkan?"
+      ],
+      "responses": [
+        "Saya dapat memandu Anda mencarikan informasi tentang COVID-19",
+        "Saya Menawarkan dukungan Informasi untuk edukasi anda dalam mengurangi resiko terpapar wabah COVID-19 ini"
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "input": [
+        "terima kasih",
+        "makasih",
+        "terima kasih atas informasi nya",
+        "oke terima kasih"
+      ],
+      "responses": ["Sama-sama, Selalu Jaga Kesehatan Yaah!!"]
+    },
+
+    {
+      "tag": "perkenalan",
+      "input": [
+        "siapa kamu ?",
+        "kamu siapa ?",
+        "siapa nama kamu ?",
+        "apa kamu chatbot ?",
+        "bagaimana saya memanggil kamu ?",
+        "nama kamu siapa ?",
+        "kamu bot ?",
+        "saya panggil kamu bagaimana ?"
+      ],
+      "responses": [
+        "Saya Bot pencari informasi terkait COVID-19, Anda bisa memanggil saya Corbot",
+        "Saya Corbot dan Anda dapat mengajukan pertanyaan tentang COVID-19",
+        "Corbot siap mencarikan info COVID-19 untuk Anda",
+        "Perkenalan saya corbot saya akan membantu kamu mencari informasi terkait COVID-19",
+        "Kamu bisa panggil saya Corbot dan saya disini untuk membantumu mencari informasi COVID-19",
+        "Nama saya adalah Corbot dan Saya di sini untuk menjawab pertanyaan Anda tentang COVID-19"
+      ]
+    },
+
+    {
+      "tag": "pengertian",
+      "input": [
+        "apa itu virus corona ?",
+        "apa itu covid ?",
+        "virus corona adalah ?",
+        "covid adalah ?"
+      ],
+      "responses": [
+        "Corona Virus Disease 2019 atau yang biasa disingkat COVID-19 adalah penyakit menular yang disebabkan oleh SARS-CoV-2, salah satu jenis coronavirus. Penderita COVID-19 dapat mengalami demam, batuk kering, dan kesulitan bernafas."
+      ]
+    },
+
+    {
+      "tag": "asal_covid",
+      "input": [
+        "darimana virus corona berasal ?",
+        "darimana covid berasal ?",
+        "dari mana covid berasal ?",
+        "dari mana virus corona berasal ?",
+        "virus corona pertama kali menyebar dimana ?",
+        "covid pertama kali menyebar dimana ?",
+        "dimana pertama kali diidentifikasi virus corona ?",
+        "dimana pertama kali diidentifikasi covid ?",
+        "kapan virus corona muncul pertama kali ?",
+        "kapan covid muncul pertama kali ?"
+      ],
+      "responses": [
+        "Pada 11 Februari 2020, Organisasi Kesehatan Dunia mengumumkan nama resmi untuk penyakit yang menyebabkan wabah virus corona baru 2019, yang pertama kali diidentifikasi di Wuhan China"
+      ]
+    },
+
+    {
+      "tag": "covid_Menular",
+      "input": [
+        "apakah covid Menular ?",
+        "apa covid dapat menular ?",
+        "apakah virus corona ?",
+        "apa virus corona dapat menular ?",
+        "apa covid bisa menular ?",
+        "apa virus corona bisa menular ?"
+      ],
+      "responses": [
+        "YA. Infeksi menyebar dari satu orang ke orang lain melalui percikan (droplet) dari saluran pernapasan yang sering dihasilkan saat batuk atau bersin. Jarak jangkauan droplet biasanya hingga 1 meter",
+
+        "Virus ini ditularkan melalui kontak langsung dengan percikan dahak dari orang yang terinfeksi (melalui batuk dan bersin), dan jika menyentuh permukaan yang terkontaminasi virus. Virus ini dapat bertahan selama beberapa jam di permukaan, tetapi disinfektan sederhana dapat membunuhnya."
+      ]
+    },
+
+    {
+      "tag": "Penyebab",
+      "input": [
+        "apa penyebab virus corona ?",
+        "apa penyebab covid ?",
+        "penyebab virus corona ?",
+        "penyebab covid ?",
+        "apa penyebab virus corona ?",
+        "apa penyebab covid"
+      ],
+      "responses": [
+        "Baru-baru ini, asam ribonukleat (RNA) dari virus penyebab COVID-19 telah ditemukan dalam air limbah yang tidak diolah. Meskipun data terbatas, hanya ada sedikit bukti virus menular dalam air limbah, dan hingga saat ini tidak ada informasi bahwa ada orang yang terinfeksi COVID-19 karena terpapar air limbah. Saat ini, risiko penularan virus penyebab COVID-19 melalui sistem pembuangan limbah yang dirancang dan dipelihara dengan baik dianggap rendah."
+      ]
+    },
+
+    {
+      "tag": "gejala",
+      "input": [
+        "bagaimana gejala covid ?",
+        "apa saja gejala covid ?",
+        "gejala apa saja yang di timbulkan dari covid ?",
+        "bagaimana gejala virus corona ?",
+        "apa saja gejala virus corona ?",
+        "gejala apa saja yang di timbulkan dari virus corona ?",
+        "apa saja gejala yang ditimbulkan dari penyakit covid",
+        "apa saja yang ditimbulkan dari gelaja covid"
+      ],
+      "responses": [
+        "Orang yang terinfeksi memiliki gejala ringan seperti demam, batuk, dan kesulitan bernafas. Gejala dapat berkembang menjadi pneumonia berat"
+      ]
+    },
+
+    {
+      "tag": "pencegahan",
+      "input": [
+        "bagaimana cara mencegah covid ?",
+        "apa saja pencegahan covid ?",
+        "cara mencegah covid",
+        "bagaimana cara mencegah virus corona ?",
+        "apa saja pencegahan virus corona ?",
+        "cara mencegah virus corona",
+        "bagaimana saya bisa melindungi diri saya sendiri ?",
+        "bagaimana tindakan untuk pencegahan virus corona atau covid"
+      ],
+      "responses": [
+        "Tindakan pencegahan untuk mengurangi kemungkinan infeksi antara lain tetap berada di rumah, menghindari bepergian dan beraktivitas di tempat umum, sering mencuci tangan dengan sabun dan air, tidak menyentuh mata, hidung, atau mulut dengan tangan yang tidak dicuci. Segera hubungi Hotline jika Anda mengalami gejala atau memiliki riwayat perjalanan/berpergian dari Negara yang terjangkit",
+
+        "Terapkan Prokes (Protokol Kesehatan) dengan cara mengenakan masker ketika keluar rumah, menjaga jarak dengan orang lain sekitar 1-2 meter, hindari berkerumunan, Bersihkan benda yang sering disentuh, Cuci tangan dengan sabun, Hindari menyentuh mata, hidung, dan mulut dengan tangan yang belum dicuci",
+
+        "Ada 4 tindakan pencegahan yang dapat Anda ambil untuk melindungi diri Anda dan keluarga yaitu; pertama cuci tangan pakai sabun dan air secara rutin atau dengan cairan pembersih tangan berbasis alkohol. kedua tutup mulut dan hidung ketika batuk atau bersin dengan siku bagian dalam atau dengan tisu, lalu segera buang tisu. ketiga hindari kontak dengan siapapun yang menunjukkan gejala seperti demam atau flu. ke-empat Jika Anda atau anak Anda demam, batuk, atau kesulitan bernapas, segera cari bantuan medis."
+      ]
+    },
+
+    {
+      "tag": "donor darah",
+      "input": [
+        "apakah saya boleh mendonorkan darah ?",
+        "apa saya boleh melakukan donor darah ?",
+        "donor darah"
+      ],
+      "responses": [
+        "Boleh, relawan yang akan melakukan donor darah tetap menerapkan protokol kesehatan, serta darah akan melalui uji saring yang ketat dari PMI memastikan pula keamanan transfusi darah ke penerima"
+      ]
+    },
+
+    {
+      "tag": "pengertian prokes",
+      "input": [
+        "protokol kesehatan adalah ?",
+        "apa yang dimaksud protokol kesehatan ?",
+        "apa itu protokol kesehatan ?",
+        "prokes adalah ?",
+        "apa yang dimaksud prokes ?",
+        "apa itu prokes ?",
+        "prokes",
+        " protokol kesehatan"
+      ],
+      "responses": [
+        "Protokol kesehatan adalah serangkaian aturan yang dikeluarkan oleh pemerintah melalui kementrian kesehatan dalam mengatur keamanan beraktivitas selama masa pandemi COVID-19",
+
+        "aturan dan ketentuan yang perlu diikuti oleh segala pihak agar dapat beraktivitas secara aman pada saat pandemi COVID-19"
+      ]
+    },
+
+    {
+      "tag": "resiko covid dari benda",
+      "input": [
+        "apakah saya berisiko terkena virus corona dari surat, paket atau benda lainnya ?",
+        "apakah benda seperti surat, paket atau produk dan lainnya beresiko terkena virus corona atau covid ?",
+        "apakah beresiko terdampak covid melalui surat, paket atau benda lainnya"
+      ],
+      "responses": [
+        "Aman. Orang yang menerima paket tidak berisiko tertular virus COVID-19. Dari pengalaman dengan coronavirus lain, kita tahu bahwa jenis virus ini tidak bertahan lama pada benda mati, seperti surat atau paket. Jadi sangat rendah kemungkinan seseorang terkena COVID-19"
+      ]
+    },
+
+    {
+      "tag": "pengaruh_cuaca",
+      "input": [
+        "apakah cuaca hangat menghentikan wabah covid ?",
+        "apa cuaca hangat dapat mengehentikan covid ?",
+        "apakah cuaca hangat mempengaruhi penyebaran covid ?",
+        "cuaca hangat",
+        "suhu",
+        "cuaca"
+      ],
+      "responses": [
+        "Belum diketahui apakah cuaca dan suhu mempengaruhi penyebaran COVID-19. Beberapa virus lain, seperti yang menyebabkan flu biasa dan flu, menyebar lebih banyak selama bulan-bulan cuaca dingin tetapi itu tidak berarti tidak mungkin untuk menjadi sakit dengan virus-virus ini selama bulan-bulan lainnya."
+      ]
+    },
+
+    {
+      "tag": "mitigasi_komunitas",
+      "input": [
+        "apa itu mitigasi komunitas ?",
+        "apakah tujuan dari tindakan mitigasi ?",
+        "apa tindakan mitigasi komunitas untuk covid ?",
+        "mitigasi"
+      ],
+      "responses": [
+        "Kegiatan mitigasi masyarakat adalah tindakan yang dapat dilakukan oleh masyarakat dan masyarakat untuk memperlambat penyebaran penyakit menular, dan mempersiapkannya jika terjadi, termasuk COVID-19. Mitigasi komunitas sangat penting sebelum vaksin atau obat tersedia secara luas. Untuk informasi lebih lanjut, lihat Kerangka Kerja Mitigasi Komunitas.",
+
+        "Mengurangi resiko/dampak yang ditimbulkan oleh bencana khususnya bagi penduduk, seperti korban jiwa (kematian), kerugian ekonomi (economy costs) dan kerusakan sumber daya alam.",
+
+        "Untuk individu Sering mencuci tangan Menghindari kontak dekat dengan orang yang sakit, dan melakukan social distancing Menutup mulut dan hidung dengan masker saat berada di sekitar orang lain Menutupi batuk dan bersin Membersihkan dan mendisinfeksi permukaan yang sering disentuh setiap hari Untuk masyarakat Mempromosikan perilaku yang mencegah penyebaran Menjaga lingkungan yang sehat."
+      ]
+    },
+
+    {
+      "tag": "dampak_pandemi",
+      "input": [
+        "apa dampak dari pandemi covid",
+        "apa saja dampak dari pendemi covid",
+        "dampak ",
+        "dampak pandemi"
+      ],
+      "responses": [
+        "Dampak yang di akibat dari pandemi COVID-19 ini tidak hanya berdampak pada kesehatan manusia, tetapi juga memengaruhi kondisi perekonomian, pendidikan, dan kehidpuan sosial manusia. dampak dari pandemi ini juga menyebabkan pemerintah daerah menerapkan kebijakan PSBB (Pembatasan Sosial Berskala Besar) yang implikasi terhadap pembatasan aktifitas masyarakat."
+      ]
+    },
+
+    {
+      "tag": "pengertian vaksin",
+      "input": [
+        "apa itu vaksin ?",
+        "apa itu vaksinasi ?",
+        "vaksin adalah",
+        "vaksinasi adalah",
+        "vaksin",
+        "vaksinasi"
+      ],
+      "responses": [
+        "vaksin merupakan salah satu upaya pemerintah Indonesia dalam menangani masalah Covid-19. Vaksinasi Covid-19 bertujuan untuk menciptakan kekebalan kelompok (herd immunity) agar masyarakat menjadi lebih produktif dalam menjalankan aktivitas kesehariannya."
+      ]
+    },
+
+    {
+      "tag": "vaksin covid",
+      "input": [
+        "apakah vaksin covid sudah ada ?",
+        "apa vaksin covid sudah tersedia ?",
+        "apakah vaksin virus corona sudah ada ?",
+        "apa vaksin virus corona sudah tersedia ?",
+        "vaksin covid",
+        "vaksin virus corona"
+      ],
+      "responses": [
+        "vaksin covid saat ini sudah tersedia. untuk 3 tahapan dosis vaksin yg di beri jeda vaksin pertama dan kedua di beri jeda 1 sampai 3 bulan tergantung jenis vaksin sedangkan vaksin yang ketiga diperlukan jeda waktu 6 bulan setelah vaksinasi dosis kedua.",
+
+        "vaksin untuk mencegah infeksi COVID-19 sudah ada untuk vaksinasi dilakukan 3 kali untuk saat ini vaksin pertama dan kedua diberi jarak waktu 1 sampai 3 bulan sedangkan vaksin ketiga atau booster dilakukan dengan jarak 6 bulan setelah melukan vaksinasi dosis kedua."
+      ]
+    },
+
+    {
+      "tag": "pentingnya vaksin",
+      "input": [
+        "apakah vaksin itu penting ?",
+        "apakah vaksin wajib ?",
+        "apakah vaksin gratis ?",
+        "apakah vaksin aman ?"
+      ],
+      "responses": [
+        "Vaksin COVID-19 sangat penting dikarena akan meningkatkan imun tubuh terhadap virus tersebut. menurut Centers for Disease Control and Prevention (CDC) menyebut vaksin COVID-19 aman dilakukan. Namun, efek samping mungkin akan timbul terhadap sebagian orang. untuk saat ini vaksin COVID-19 diberikan secara gratis"
+      ]
+    },
+
+    {
+      "tag": "daftar vaksin",
+      "input": [
+        "bagaimana cara saya mendaftar vaksinasi ?",
+        "bagaimana cara saya melakukan vaksinasi ?",
+        "cara melakukan vaksinasi",
+        "apa saja yang diperlukan untuk vaksinasi ?",
+        "daftar vaksin",
+        "daftar vaksinasi",
+        "mendaftar vaksin"
+      ],
+      "responses": [
+        "di indonesia vaksinasi dapat dilakukan dengan mendaftar melalui aplikasi Jaki atau Peduli Lindungi atau pergi ketempat yang menyediakan fasilitas vaksinasi kemudian mengisikan formulir data diri yang diperlukan kemudian pilih jadwal dan lokasi terdekat untuk vaksinasi bagi yang mendaftar melalui Aplikasi Jaki atau Peduli Lindungi"
+      ]
+    }
+  ]
+}

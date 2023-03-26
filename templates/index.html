@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CORBOT</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="../static/styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles/style.css') }}"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">COR<span>BOT</span>.</a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#tableau">Data COVID-19</a>
+        <a href="#team">Team</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+
+    <!-- Hero Section Start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Mari Kita Lawan <span>COVID-19</span></h1>
+        <p>
+          Untuk Bertanya Seputar COVID-19 dapat klik tombol balon chat dipojok
+          kanan layar. Jika ada masukan terkait website chatbot ini silahkan
+          klik tombol masukan dibawah ini
+        </p>
+        <a href="#" class="cta">Masukan</a>
+      </main>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="../static/images/tentang-kami.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Apa Itu Corbot?</h3>
+
+          <p>
+            Corbot (Corona Chatbot) merupakan sebuah chatbot dengan layanan
+            obrolan robot/tokoh virtual dengan kecerdasan buatan atau AI
+            (Artificial Intelligent) yang menirukan percakapan manusia melalui
+            obrolan teks.
+          </p>
+
+          <p>
+            Corona Chatbot ini bertujuan mempermudah user dalam mengetahui
+            bagaimana perkembangan informasi dari virus COVID-19
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="tableau" class="tableau">
+      <h2><span>Data COVID-19</span> Di Indonesia</h2>
+      <p>
+        Dibawah ini adalah data penyebaran COVID-19 di Indonesia Tahun 2020 -
+        2021
+      </p>
+
+      <div class="row">
+        <img
+          class="tableau-covid"
+          src="../static/images/tableau.png"
+          alt="tableau.png"
+        />
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Menu Section Start -->
+    <section id="team" class="team">
+      <h2><span>Team</span> Corbot</h2>
+      <p>Berikut Team Pengembang Dari CORBOT</p>
+      <div class="row">
+        <div class="menu-card">
+          <img
+            src="../static/images/team/bangkit.jpg"
+            alt="Bangkit"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-nama">Bangkit Kharisma Raja</h3>
+          <p class="menu-card-univ">Universitas Bina Sarana Informatika</p>
+        </div>
+        <div class="menu-card">
+          <img
+            src="../static/images/team/putri.jpg"
+            alt="Putri"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-nama">Nurhidayah Putri</h3>
+          <p class="menu-card-univ">Universitas Muhammadiyah Riau</p>
+        </div>
+        <div class="menu-card">
+          <img
+            src="../static/images/team/fadil.jpg"
+            alt="Fadhil"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-nama">Muhammad Fadhil Muttaqin</h3>
+          <p class="menu-card-univ">Sekolah Tinggi Teknologi Bandung</p>
+        </div>
+        <div class="menu-card">
+          <img
+            src="../static/images/team/ardi.jpg"
+            alt="Ardi"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-nama">Muhamad Ardi Apriansyah</h3>
+          <p class="menu-card-univ">Institut Informatika & Bisnis Darmajaya</p>
+        </div>
+        <div class="menu-card">
+          <img
+            src="../static/images/team/fendi.jpg"
+            alt="Fendi"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-nama">Fendi Elyon Ramadhan</h3>
+          <p class="menu-card-univ">Amikom Purwokerto</p>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Section End -->
+
+    <!-- Navbar End -->
+
+    <!-- Chat Nav Start -->
+    <div class="container">
+      <div class="chatbox">
+        <div class="chatbox__support">
+          <div class="chatbox__header">
+            <div class="chatbox__image--header">
+              <img src="../static/images/logo.png" alt="image" />
+            </div>
+            <div class="chatbox__content--header">
+              <h4 class="chatbox__heading--header">CORBOT</h4>
+              <p class="chatbox__description--header">
+                Hallo. nama saya CORBOT.<br />Apa yang ingin anda ketahui
+                terkait COVID-19?
+              </p>
+            </div>
+          </div>
+          <div class="chatbox__messages">
+            <div></div>
+          </div>
+          <form class="chatbox__footer">
+            <input
+              type="text"
+              class="msger-input"
+              id="textInput"
+              placeholder="Masukan Pertanyaan Anda..."
+              autocomplete="off"
+            />
+            <button type="submit" class="chatbox__send--footer send__button">
+              Kirim
+            </button>
+          </form>
+        </div>
+        <div class="chatbox__button">
+          <button>
+            <img src="../static/images/chatbox-icon.svg" />
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Chat Nav End -->
+
+    <!-- Footer Section Start -->
+    <footer>
+      <!-- <div class="sosmed">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div> -->
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#team">Team</a>
+        <a href="#">Contact</a>
+      </div>
+
+      <div class="credit">
+        <p>Created By <a href="#">CORBOT</a> | &copy; 2022</p>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My JavaScript -->
+    <script src="../static/script/main.js"></script>
+    <script src="{{ url_for('static', filename='script/main.js') }}"></script>
+  </body>
+</html>
