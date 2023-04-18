@@ -31,6 +31,9 @@ body {
   color: #000000;
   /* min-height: 5000px; */
 }
+body::-webkit-scrollbar {
+  display: none;
+}
 
 /* navbar */
 .navbar {
@@ -326,7 +329,7 @@ body {
 
 /* CONTENT IS CLOSE */
 .chatbox__support {
-  display: flex;
+  display: none;
   flex-direction: column;
   background: #eee;
   width: 300px;
@@ -338,6 +341,7 @@ body {
 
 /* CONTENT ISOPEN */
 .chatbox--active {
+  display: flex;
   transform: translateY(-40px);
   z-index: 123456;
   opacity: 1;
@@ -374,6 +378,9 @@ body {
   display: flex;
   overflow-y: auto;
   flex-direction: column;
+}
+.chatbox__messages::-webkit-scrollbar {
+  display: none;
 }
 
 .messages__item {
